@@ -1,9 +1,7 @@
 <?php
-  
   include "simple_html_dom.php";
   
-  $uname = $_POST['uname'];
-  $psw = $_POST['psw'];
+
   
   $headers = array (   
     //'Cookie: TSPD_101=08ce110aecab280094f280d627cc68873431dfb707d270444aaf5920597ad7acd2dd729aa4c99a53f8df095b6a16ca1e',
@@ -60,8 +58,8 @@
     '__VIEWSTATE' => "$__VIEWSTATE",
     '__VIEWSTATEGENERATOR' =>	"$__VIEWSTATEGENERATOR",
     'ctl00$ctl00$MainBody$ContentPlaceHolder1$LoginBtn' => "دخول",
-    'ctl00$ctl00$MainBody$ContentPlaceHolder1$tbPassword'	=> "$psw",
-    'ctl00$ctl00$MainBody$ContentPlaceHolder1$tbUserName'	=> "$uname"
+    'ctl00$ctl00$MainBody$ContentPlaceHolder1$tbPassword'	=> 'Hasanhasan#123',
+    'ctl00$ctl00$MainBody$ContentPlaceHolder1$tbUserName'	=> 'ahmad_ragab'
   );
   
   
